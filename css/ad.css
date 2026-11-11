@@ -23,6 +23,16 @@ body {
 	top: 355px;
 	left: 400px;
 }
+.logo {
+	width: 350px;
+	height: 250px;
+	background: url("../images/logo.png") no-repeat center center fixed;
+	background-size: 15%;
+	position: absolute;
+	rotate: 0.5deg;
+	top: 445px;
+	left: 230px;
+}
 
 .text {
 	width: 570px;
