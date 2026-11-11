@@ -13,6 +13,16 @@ body {
 	background: url("../images/background.jpg") no-repeat center center fixed;
 	background-size: frame;
 }
+.mug {
+	width: 350px;
+	height: 250px;
+	background: url("../images/mug.png") no-repeat center center fixed;
+	background-size: 85%;
+	rotate: -10deg;
+	position: absolute;
+	top: 355px;
+	left: 400px;
+}
 
 .text {
 	width: 570px;
@@ -31,7 +41,6 @@ body {
 	font-family: 'Handjet';
 	src: url(../fonts/Handjet-VariableFont_ELGR,ELSH,wght.ttf) format('ttf');
 	font-weight: 100 900;
-	font-element-shape; 0 16;
 	font-style: normal;
 }
 
@@ -39,7 +48,7 @@ body {
 	font-family: 'Handjet';
 	color: midnightblue;
 	font-size: 70px;
-	font-weight: 600;
+	font-variation-settings: "wght" 600;
 	text-rendering: geometricPrecision;
 	letter-spacing: 0.3px;
 	left: 60px;
@@ -51,7 +60,7 @@ body {
 	color: aliceblue;
 	background-color: mediumslateblue;
 	font-size: 70px;
-	font-weight: 700;
+	font-variation-settings: "wght" 900;
 	text-rendering: geometricPrecision;
 	letter-spacing: 0.3px;
 	left: 60px;
